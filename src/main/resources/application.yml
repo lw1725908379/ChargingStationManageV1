@@ -1,0 +1,11 @@
+server:
+  port: 8087
+  servlet:
+    session:
+      timeout: 1800
+logging:
+  level:
+    com:
+      alibaba:
+        nacos: DEBUG
+      cloud: DEBUG
