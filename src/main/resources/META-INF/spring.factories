@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com/edu/basic/service/impl/MinIOFileStorageService.java
