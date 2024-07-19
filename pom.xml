@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.yjq.programmer</groupId>
+        <groupId>com.edu.lw</groupId>
         <artifactId>ChargingStationManage</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -20,10 +20,15 @@
     </properties>
 
     <dependencies>
-
+        <!--model-->
+        <dependency>
+            <groupId>com.edu.lw</groupId>
+            <artifactId>model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--引入basic，minio实现分布式上传图片-->
         <dependency>
-            <groupId>com.yjq.programmer</groupId>
+            <groupId>com.edu.lw</groupId>
             <artifactId>basic</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -98,7 +103,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.yjq.programmer.ChargingStationManageApplication</mainClass>
+                    <mainClass>ChargingStationManageApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
